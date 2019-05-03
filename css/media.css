@@ -1,0 +1,19 @@
+@media(max-width: 1199px){
+
+.col-xl-6{width: 50%;}
+.col-lg-6{widows: 50%;}
+}
+@media(max-width: 991px){
+
+}
+@media(max-width: 767px){
+
+.about-heading{font-size: 20px;}
+
+.sub-text{font-size: 20px;}
+}
+@media(max-width: 575px){
+
+.about-heading{font: 20px;}
+.sub-text{font-size: 20px;}
+}

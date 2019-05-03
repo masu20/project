@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.center-col {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+	margin-top: 7px;
+}
+
+.text-secondary{
+	color: #9ca3a9;
+}
+
+.height{
+	max-height: 100vh;
+}
+
+.vh-100{
+	min-height: 100vh;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.nav-item{
+	font-size: 20px;
+}
+
+.services-text{
+	font-size: 35px;
+	margin-top: 100px;
+}
+
+.services-text-small{
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+.card-body{
+	flex: none;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.card-title{
+	font-size: 20px;
+}
+
+.card-text{
+	font-size: 15px;
+}
+
+.text-white{
+	color: #fff!important;
+}
+
+.bg-light-blue{
+	background-color: #00bcd4; 
+}
+
+.icon-small-round{
+	border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    font-size: 32px;
+    padding: 22px;
+}
+
+.fa-desktop::before{
+	content: "\f108";
+}
+
+.fa-cut{
+	transform: rotateZ(270deg);
+}
+
+.border{
+	padding: 10px;
+}
+
+.services-text{
+	margin-top: 110px;
+	font-size: 35px;
+}
+
+.fadeInUp{
+	animation-name: fadeInUp;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+
+.red-text{
+	font-size: 20px;
+}
+
+.bounceIn{
+	animation-name: bounceIn;
+	animation-duration: 1s;
+	animation-delay: 0.3s;
+	animation-iteration-count: 1;
+}
+
+.fa-cut{
+	transform: rotateZ(270deg);
+}
+
+.border{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.margin-top{
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.about-heading{
+	color: white;
+    font-size: 35px;
+    z-index: 2;
+}
+
+.sub-text{
+	font-size: 25px;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 1px 2px rgba(150, 150, 150, 1);
+}
+
+.about-section{
+	background-image: url(../images/startup-849805_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    position: relative;
+}
+
+.opacity-medium{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 1.75;
+	top: 0;
+	left: 0;
+}
+
+.bg-grey{
+	background-color: #13121282;
+}
+
+.work-text{
+	font-size: 35px;
+	color: white;
+    z-index: 2;
+}
+
+.work-sub-text{
+	font-size: 18px;
+	color: white;
+	z-index: 2;
+}
+
+.work-section{
+	background-image: url(../images/laptop-1483974_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    position: relative;
+}
+
+.image-height{
+	max-height: 626px;
+}
+
+.team-text{
+	font-size: 35px;
+	color: white;
+    z-index: 2;
+}
+
+.team-sub-text{
+	font-size: 18px;
+	color: white;
+	z-index: 2;
+}
+
+
+.team-margin-top{
+	margin-top: 150px;
+}
+.team-margin-bottom{
+	margin-bottom: 100px;
+}
+
+.contact-section{
+	background-image: url(../images/desk-1081708_1280.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 1000px;
+}
+
+.contact-margin-top{
+	margin-top: 100px;
+}
+
+.btn{
+	font-size: 22px!important;
+}
+
+.btn-custom{
+	padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    background-color: blue;
+    font-weight: 700;
+}
+
+
+.contact-heading{
+	font-size: 35px;
+}
+
+.contact-sub-heading{
+	font-size: 18px;
+}
+.contact-form-text{
+	font-size: 15px!important;
+}
+
